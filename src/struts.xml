@@ -12,6 +12,13 @@
 			method="execute">
 			<result>/helloworld.jsp</result>
 		</action>
-
+		<action name="registerEmployee" class="com.example.EmployeeAction"
+			method="addEmployee">
+			<result name="success">/employee.jsp</result>
+		</action>
+		<action name="listEmployee" class="com.example.EmployeeAction"
+			method="fetchEmployee">
+			<result name="success">/employee.jsp</result>
+		</action>
 	</package>
 </struts>

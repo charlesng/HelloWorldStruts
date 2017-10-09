@@ -11,6 +11,7 @@ The following is the dependencies
 - Struts2 sitemesh plugin 2.5.13
 - log4j 1.2.14
 - struts2-bootstrap-plugin 2.5.1
+- hibernate 3.6.1-Final
 
 After deploy to the local server, please browse:
 

@@ -34,4 +34,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+   <listener>
+        <listener-class>com.example.listener.HibernateListener</listener-class>
+    </listener>
 </web-app>
